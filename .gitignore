@@ -1,0 +1,17 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# build
+build
+dist
+**/stats.html
+
+# dependencies
+node_modules
+package-lock.json
+
+# ide
+/.idea
+.idea
+
+# OS
+.DS_Store

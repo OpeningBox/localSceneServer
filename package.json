@@ -1,0 +1,11 @@
+{
+  "name": "local-scene-server",
+  "version": "1.0.0",
+  "description": "local http server to serve scene data for playground",
+  "scripts": {
+    "start": "npx http-server --cors"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
