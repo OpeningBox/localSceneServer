@@ -1,0 +1,93 @@
+{
+  "frames": {
+    "1.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 175
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 175
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 175
+      }
+    },
+    "2.png": {
+      "frame": {
+        "x": 250,
+        "y": 0,
+        "w": 250,
+        "h": 175
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 250,
+        "y": 0,
+        "w": 250,
+        "h": 175
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 175
+      }
+    },
+    "3.png": {
+      "frame": {
+        "x": 0,
+        "y": 175,
+        "w": 250,
+        "h": 175
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 175,
+        "w": 250,
+        "h": 175
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 175
+      }
+    },
+    "4.png": {
+      "frame": {
+        "x": 250,
+        "y": 175,
+        "w": 250,
+        "h": 175
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 250,
+        "y": 175,
+        "w": 250,
+        "h": 175
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 175
+      }
+    }
+  },
+  "meta": {
+    "image": "propellerAnimation4x.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 500,
+      "h": 350
+    },
+    "scale": "1"
+  }
+}

@@ -11,7 +11,7 @@ export default {
       name: '方块',
       toolsOptions: {
         move: true,
-        rotate: true
+        rotate: true,
       },
     },
     {
@@ -72,17 +72,17 @@ async function init(runtime) {
 
   // 加载模型
   const [
-    Polygon, empty, Machine, GolfBall, GolfTee, WorldBox, Flag
+    Polygon, Empty, Machine, GolfBall, GolfTee, WorldBox, Flag, Rocket,
   ] = await this.director.loadModelList([
-    'http://localhost:8080/public/test/entities/golf/Polygon/v1.0.0',
+    '@golf/Polygon@1.0.0',
     this.resolveRelativeUrl('./Empty'),
     '@golf/Machine',
     '@golf/GolfBall@1.0.0',
     '@golf/GolfTee@1.0.0',
     'WorldBox@^1.0.0',
-    'Flag@1.0.0'
+    'Flag@1.0.0',
+    this.resolveRelativeUrl('./Rocket'),
   ])
-
 
   {
     const et = await this.director.createEntity(WorldBox, {
@@ -90,6 +90,19 @@ async function init(runtime) {
       height,
       visible: true
     })
+
+    this.addChild(et)
+  }
+
+  {
+    const et = await this.director.createEntity(Rocket, {
+      force: {
+        x: 0,
+        y: 2,
+      }
+    })
+
+    et.toolsOptions.editSettings = true
 
     this.addChild(et)
   }
