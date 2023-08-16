@@ -1,0 +1,63 @@
+{
+  "entities/Circle": [
+    "v1.0.0"
+  ],
+  "entities/Empty": [
+    "v1.0.0"
+  ],
+  "entities/Fireworks": [
+    "v1.0.0"
+  ],
+  "entities/Flag": [
+    "v1.0.0"
+  ],
+  "entities/WorldBox": [
+    "v1.0.0",
+    "v1.5.0",
+    "v2.1.0"
+  ],
+  "entities/golf/Circle": [
+    "v1.0.0",
+    "v1.5.1",
+    "v2.1.0"
+  ],
+  "entities/golf/Empty": [
+    "v1.0.0"
+  ],
+  "entities/golf/Gear": [
+    "v1.0.0"
+  ],
+  "entities/golf/GolfBall": [
+    "v1.0.0"
+  ],
+  "entities/golf/GolfTee": [
+    "v1.0.0"
+  ],
+  "entities/golf/Machine": [
+    "v1.0.0",
+    "v2.1.5"
+  ],
+  "entities/golf/Polygon": [
+    "v1.0.0",
+    "v2.1.2",
+    "v2.1.8",
+    "v2.2.0"
+  ],
+  "entities/power/Rocket": [
+    "v1.0.0"
+  ],
+  "games/golf/golf_2": [
+    "v1.0.0",
+    "v1.10.1",
+    "v1.8.0"
+  ],
+  "games/golf/golf_2/v1.0.0/entities/Empty": [
+    "v1.0.0"
+  ],
+  "games/golf/golf_2/v1.10.1/entities/Empty": [
+    "v1.0.0"
+  ],
+  "games/golf/golf_2/v1.8.0/entities/Empty": [
+    "v1.0.0"
+  ]
+}
